@@ -5,8 +5,11 @@
     "outDir": "./dist",
     "rootDir": "./src",
     "strict": true,
+    "baseUrl": "src",
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+
+    "experimentalDecorators": true
   }
 }

@@ -1,0 +1,26 @@
+{
+  "name": "decorators",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "dev": "nodemon dist/index.js",
+    "build": "tsc",
+    "serve": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aomineDev/decorators-ts.git"
+  },
+  "keywords": [],
+  "author": "aomine Dev <aomine1745@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aomineDev/decorators-ts/issues"
+  },
+  "homepage": "https://github.com/aomineDev/decorators-ts#readme",
+  "devDependencies": {
+    "@types/node": "14.14.25"
+  }
+}
